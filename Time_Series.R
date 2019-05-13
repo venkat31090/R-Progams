@@ -10,7 +10,7 @@ library(forecast)
 library(tseries)
 
 ###Reading time series data inside R###
-setwd("E:\\Work\\Jigsaw Academy\\Data Scientist Course\\Data Science Redo\\Live Classes\\Time Series")
+setwd("D:\\DS\\Time Series in R - Class codes")
 bar<-read.csv("barley.csv")
 bar<-bar[-1]
 bar<-ts(bar,start=c(1884),frequency=1)
